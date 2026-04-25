@@ -1,0 +1,24 @@
+[2026-04-08 05:24:31 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2026-04-08 05:24:31 : INFO] - Pruning the Cache log file 
+[2026-04-08 05:24:42 : INFO] - Pruning the Cache log file 
+[2026-04-08 05:27:13 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/?elementor_library=default-kit has been purged, triggered by action: save_post 
+[2026-04-08 05:27:13 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: elementor_library and Title: "Default Kit" has been purged, triggered by action: save_post 
+[2026-04-08 05:27:13 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/?elementor_library=default-kit has been purged, triggered by action: save_post 
+[2026-04-08 05:27:13 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: elementor_library and Title: "Default Kit" has been purged, triggered by action: save_post 
+[2026-04-08 05:27:13 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/?elementor_library=default-kit has been purged, triggered by action: save_post 
+[2026-04-08 05:27:13 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: elementor_library and Title: "Default Kit" has been purged, triggered by action: save_post 
+[2026-04-08 05:53:35 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/?elementor_library=elementor-header-33 has been purged, triggered by action: save_post 
+[2026-04-08 05:53:35 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: elementor_library and Title: "Header" has been purged, triggered by action: save_post 
+[2026-04-08 05:53:35 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/?elementor_library=elementor-header-33 has been purged, triggered by action: save_post 
+[2026-04-08 05:53:35 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: elementor_library and Title: "Header" has been purged, triggered by action: save_post 
+[2026-04-08 05:53:35 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/?elementor_library=elementor-header-33 has been purged, triggered by action: save_post 
+[2026-04-08 05:53:35 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: elementor_library and Title: "Header" has been purged, triggered by action: save_post 
+[2026-04-08 05:55:59 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/ has been purged, triggered by action: save_post 
+[2026-04-08 05:55:59 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: page and Title: "Home" has been purged, triggered by action: save_post 
+[2026-04-08 05:55:59 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/ has been purged, triggered by action: save_post 
+[2026-04-08 05:55:59 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: page and Title: "Home" has been purged, triggered by action: save_post 
+[2026-04-08 05:55:59 : INFO] - Cache for URL: https://gorilla-j.previewmysite.online/ has been purged, triggered by action: save_post 
+[2026-04-08 05:55:59 : INFO] - Cache for author page URL: https://gorilla-j.previewmysite.online/author/admin/ associated with post_type: page and Title: "Home" has been purged, triggered by action: save_post 
+[2026-04-08 05:56:52 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2026-04-08 05:56:52 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::disable 
+[2026-04-08 05:56:52 : INFO] - Full Cache Purge triggered by: WP_Optimize_Minify_Cache_Functions::purge_others 

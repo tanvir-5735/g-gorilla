@@ -1,0 +1,63 @@
+:root {
+  --tu-icon-extra-large: 48px;
+  --tu-icon-large: 32px;
+  --tu-icon-medium: 24px;
+  --tu-icon-small: 18px;
+  --tu-icon-extra-small: 16px;
+}
+
+@media (max-width: 500px) {
+  :root {
+    --tu-icon-extra-large: 48px;
+    --tu-icon-large: 32px;
+    --tu-icon-medium: 24px;
+    --tu-icon-small: 18px;
+    --tu-icon-extra-small: 16px;
+  }
+}
+tu-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+tu-icon::before {
+  --tu-icon-size: var(--tu-icon-extra-large);
+  content: "";
+  display: block;
+  width: var(--tu-icon-size);
+  height: var(--tu-icon-size);
+  -webkit-mask-image: url("./components/icon/svgs/right.svg");
+          mask-image: url("./components/icon/svgs/right.svg");
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  background: var(--color-secondary-500);
+}
+tu-icon[size=l]::before {
+  --tu-icon-size: var(--tu-icon-large);
+}
+tu-icon[size=m]::before {
+  --tu-icon-size: var(--tu-icon-medium);
+}
+tu-icon[size=s]::before {
+  --tu-icon-size: var(--tu-icon-small);
+}
+tu-icon[size=xs]::before {
+  --tu-icon-size: var(--tu-icon-extra-small);
+}
+tu-icon[instance=left]::before {
+  -webkit-mask-image: url("./components/icon/svgs/left.svg");
+          mask-image: url("./components/icon/svgs/left.svg");
+}
+tu-icon[instance=right]::before {
+  -webkit-mask-image: url("./components/icon/svgs/right.svg");
+          mask-image: url("./components/icon/svgs/right.svg");
+}
+tu-icon[instance=click]::before {
+  -webkit-mask-image: url("./components/icon/svgs/click.svg");
+          mask-image: url("./components/icon/svgs/click.svg");
+}/*# sourceMappingURL=icon.css.map */

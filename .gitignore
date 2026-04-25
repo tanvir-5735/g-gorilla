@@ -1,0 +1,6 @@
+wp-content/updraft/
+*.zip
+uploads/
+wp-content/updraft/*.zip
+wp-content/uploads/
+wp-content/wpo-cache/

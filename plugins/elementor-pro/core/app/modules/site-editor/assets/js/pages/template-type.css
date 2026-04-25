@@ -1,0 +1,9 @@
+.e-site-editor__templates .page-header {
+  margin-block-end: spacing(10);
+}
+.e-site-editor__templates .page-header > a {
+  align-self: baseline;
+}
+.e-site-editor__templates .eps-separator {
+  margin-block-end: spacing(44);
+}/*# sourceMappingURL=template-type.css.map */

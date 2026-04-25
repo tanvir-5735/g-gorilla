@@ -1,0 +1,183 @@
+0000.000 (0) Opened log file at time: Tue, 21 Apr 2026 06:06:17 +0000 on https://gorilla.devmasud.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.1.34 (litespeed, Linux corporate.vip3.noc401.com 4.18.0-553.58.1.lve.el8.x86_64 #1 SMP Fri Jul 4 12:07:06 UTC 2025 x86_64) MySQL: 11.4.10-MariaDB (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 75.1M | 77M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.061 (0) Free space on disk containing Updraft's temporary directory: 1179419.1 MB
+0000.126 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.128 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.132 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1776673552, seconds_ago=78025)
+0000.135 (0) Set semaphore last lock (fd) time to 2026-04-21 06:06:17
+0000.137 (0) Semaphore lock (fd) complete
+0000.142 (0) Backup run: resumption=0, nonce=fb6da3dedaec, file_nonce=fb6da3dedaec begun at=1776751577 (0s ago), job type=backup
+0000.143 (0) Scheduling a resumption (1) after 300 seconds (1776751877) in case this run gets aborted
+0000.154 (0) Checking if we have a zip executable available
+0000.155 (0) Testing: /usr/bin/zip
+0000.159 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.165 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.165 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.166 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.166 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.175 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.176 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.182 (0) Working binary zip found: /usr/bin/zip
+0000.183 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.183 (0) Creation of backups of directories: beginning
+0000.184 (0) No backup of plugins: excluded by user's options
+0000.185 (0) No backup of themes: excluded by user's options
+0000.185 (0) No backup of uploads: excluded by user's options
+0000.186 (0) No backup of mu-plugins: excluded by user's options
+0000.186 (0) No backup of others: excluded by user's options
+0000.188 (0) Saving backup status to database (elements: 0)
+0000.191 (0) Beginning creation of database dump (WordPress DB)
+0000.191 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0000.192 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.229 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;\nDROP TABLE IF EXISTS `wp2w_options`;\n/*!40101 SET @saved_cs_client     = @@character_set (truncated - 1536 bytes total)
+0000.230 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.248 (0) Table wp2w_options: Total expected rows (via COUNT): 780
+0000.295 (0) Table wp2w_options: Rows added in this batch (next record: 8497): 776 (uncompressed bytes in this segment=1640349) in 0.06 seconds
+0000.302 (0) Table wp2w_options: finishing file(s) (2, 205.6 KB)
+0000.306 (0) Table wp2w_users: Total expected rows (via COUNT): 2
+0000.307 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.309 (0) Table wp2w_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1433) in 0.00 seconds
+0000.317 (0) Table wp2w_users: finishing file(s) (2, 0.7 KB)
+0000.321 (0) Table wp2w_usermeta: Total expected rows (via COUNT): 52
+0000.321 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.322 (0) Table wp2w_usermeta: Rows added in this batch (next record: 53): 52 (uncompressed bytes in this segment=6339) in 0.00 seconds
+0000.327 (0) Table wp2w_usermeta: finishing file(s) (2, 2.6 KB)
+0000.334 (0) Table wp2w_commentmeta: Total expected rows (via COUNT): 0
+0000.336 (0) Table wp2w_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0000.338 (0) Table wp2w_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.341 (0) Table wp2w_comments: Total expected rows (via COUNT): 0
+0000.343 (0) Table wp2w_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1478) in 0.00 seconds
+0000.345 (0) Table wp2w_comments: finishing file(s) (2, 0.5 KB)
+0000.349 (0) Table wp2w_e_notes: Total expected rows (via COUNT): 0
+0000.350 (0) Table wp2w_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1897) in 0.00 seconds
+0000.352 (0) Table wp2w_e_notes: finishing file(s) (2, 0.7 KB)
+0000.356 (0) Table wp2w_e_notes_users_relations: Total expected rows (via COUNT): 0
+0000.357 (0) Table wp2w_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=864) in 0.00 seconds
+0000.359 (0) Table wp2w_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0000.363 (0) Table wp2w_links: Total expected rows (via COUNT): 0
+0000.364 (0) Table wp2w_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0000.367 (0) Table wp2w_links: finishing file(s) (2, 0.5 KB)
+0001.423 (0) Table wp2w_postmeta: Total expected rows (approximate): 2145
+0006.139 (0) Table wp2w_postmeta: Rows added in this batch (next record: 50586): 2219 (uncompressed bytes in this segment=50192158) in 5.77 seconds
+0006.154 (0) Table wp2w_postmeta: finishing file(s) (2, 19099.2 KB)
+0006.558 (0) Table wp2w_posts: Total expected rows (via COUNT): 375
+0006.565 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.848 (0) Table wp2w_posts: Rows added in this batch (next record: 5212): 375 (uncompressed bytes in this segment=2950329) in 0.69 seconds
+0006.875 (0) Table wp2w_posts: finishing file(s) (2, 78.3 KB)
+0006.883 (0) Table wp2w_term_relationships: Total expected rows (approximate): 29
+0006.892 (0) Table wp2w_term_relationships: Rows added in this batch (next record: 100000): 29 (uncompressed bytes in this segment=1109) in 0.01 seconds
+0006.901 (0) Table wp2w_term_relationships: finishing file(s) (2, 0.5 KB)
+0006.917 (0) Table wp2w_term_taxonomy: Total expected rows (via COUNT): 11
+0006.919 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.926 (0) Table wp2w_term_taxonomy: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1273) in 0.02 seconds
+0006.947 (0) Table wp2w_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0007.034 (0) Table wp2w_termmeta: Total expected rows (via COUNT): 0
+0007.048 (0) Table wp2w_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.02 seconds
+0007.075 (0) Table wp2w_termmeta: finishing file(s) (2, 0.4 KB)
+0007.102 (0) Table wp2w_terms: Total expected rows (via COUNT): 11
+0007.109 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.124 (0) Table wp2w_terms: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1036) in 0.03 seconds
+0007.140 (0) Table wp2w_terms: finishing file(s) (2, 0.6 KB)
+0007.201 (0) Table wp2w_burst_archived_months: Total expected rows (via COUNT): 0
+0007.209 (0) Table wp2w_burst_archived_months: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.01 seconds
+0007.214 (0) Table wp2w_burst_archived_months: finishing file(s) (2, 0.4 KB)
+0007.229 (0) Table wp2w_e_events: Total expected rows (via COUNT): 0
+0007.230 (0) Table wp2w_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=523) in 0.00 seconds
+0007.231 (0) Table wp2w_e_events: finishing file(s) (2, 0.4 KB)
+0007.242 (0) Table wp2w_e_submissions: Total expected rows (via COUNT): 0
+0007.243 (0) Table wp2w_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1991) in 0.01 seconds
+0007.248 (0) Table wp2w_e_submissions: finishing file(s) (2, 0.7 KB)
+0007.261 (0) Table wp2w_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0007.262 (0) Table wp2w_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0007.265 (0) Table wp2w_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0007.277 (0) Table wp2w_e_submissions_values: Total expected rows (via COUNT): 0
+0007.279 (0) Table wp2w_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0007.283 (0) Table wp2w_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0007.294 (0) Table wp2w_litespeed_url: Total expected rows (via COUNT): 0
+0007.299 (0) Table wp2w_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=589) in 0.01 seconds
+0007.301 (0) Table wp2w_litespeed_url: finishing file(s) (2, 0.4 KB)
+0007.308 (0) Table wp2w_litespeed_url_file: Total expected rows (via COUNT): 0
+0007.309 (0) Table wp2w_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1121) in 0.00 seconds
+0007.312 (0) Table wp2w_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0007.317 (0) Table wp2w_smush_dir_images: Total expected rows (via COUNT): 0
+0007.318 (0) Table wp2w_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=933) in 0.00 seconds
+0007.321 (0) Table wp2w_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0007.328 (0) Table wp2w_tm_taskmeta: Total expected rows (via COUNT): 0
+0007.328 (0) Table wp2w_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=638) in 0.00 seconds
+0007.336 (0) Table wp2w_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0007.343 (0) Table wp2w_tm_tasks: Total expected rows (via COUNT): 0
+0007.346 (0) Table wp2w_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0007.349 (0) Table wp2w_tm_tasks: finishing file(s) (2, 0.4 KB)
+0007.353 (0) Table wp2w_wpfm_backup: Total expected rows (via COUNT): 0
+0007.354 (0) Table wp2w_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=490) in 0.00 seconds
+0007.357 (0) Table wp2w_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0007.368 (0) Table wp2w_wpo_404_detector: Total expected rows (via COUNT): 0
+0007.369 (0) Table wp2w_wpo_404_detector: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.00 seconds
+0007.377 (0) Table wp2w_wpo_404_detector: finishing file(s) (2, 0.4 KB)
+0007.381 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_options.table.tmpr8498.gz (1/26/fopen): adding to final database dump
+0007.397 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_options.table.gz (2/26/fopen): adding to final database dump
+0007.400 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_users.table.tmpr3.gz (3/26/fopen): adding to final database dump
+0007.401 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_users.table.gz (4/26/fopen): adding to final database dump
+0007.414 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_usermeta.table.tmpr54.gz (5/26/fopen): adding to final database dump
+0007.424 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_usermeta.table.gz (6/26/fopen): adding to final database dump
+0007.429 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_commentmeta.table.tmpr0.gz (7/26/fopen): adding to final database dump
+0007.433 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_commentmeta.table.gz (8/26/fopen): adding to final database dump
+0007.438 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_comments.table.tmpr0.gz (9/26/fopen): adding to final database dump
+0007.442 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_comments.table.gz (10/26/fopen): adding to final database dump
+0007.446 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_notes.table.tmpr0.gz (11/26/fopen): adding to final database dump
+0007.448 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_notes.table.gz (12/26/fopen): adding to final database dump
+0007.450 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_notes_users_relations.table.tmpr0.gz (13/26/fopen): adding to final database dump
+0007.455 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_notes_users_relations.table.gz (14/26/fopen): adding to final database dump
+0007.457 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_links.table.tmpr0.gz (15/26/fopen): adding to final database dump
+0007.469 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_links.table.gz (16/26/fopen): adding to final database dump
+0007.477 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_postmeta.table.tmpr50587.gz (17/26/fopen): adding to final database dump
+0008.353 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_postmeta.table.gz (18/26/fopen): adding to final database dump
+0008.365 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_posts.table.tmpr5213.gz (19/26/fopen): adding to final database dump
+0008.374 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_posts.table.gz (20/26/fopen): adding to final database dump
+0008.381 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_term_relationships.table.tmpr100001.gz (21/26/fopen): adding to final database dump
+0008.385 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_term_relationships.table.gz (22/26/fopen): adding to final database dump
+0008.391 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_term_taxonomy.table.tmpr12.gz (23/26/fopen): adding to final database dump
+0008.398 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_term_taxonomy.table.gz (24/26/fopen): adding to final database dump
+0008.402 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_termmeta.table.tmpr0.gz (25/26/fopen): adding to final database dump
+0008.406 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_termmeta.table.gz (26/26/fopen): adding to final database dump
+0008.418 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_terms.table.tmpr12.gz (27/26/fopen): adding to final database dump
+0008.423 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_terms.table.gz (28/26/fopen): adding to final database dump
+0008.430 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_burst_archived_months.table.tmpr0.gz (29/26/fopen): adding to final database dump
+0008.440 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_burst_archived_months.table.gz (30/26/fopen): adding to final database dump
+0008.446 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_events.table.tmpr0.gz (31/26/fopen): adding to final database dump
+0008.457 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_events.table.gz (32/26/fopen): adding to final database dump
+0008.470 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_submissions.table.tmpr0.gz (33/26/fopen): adding to final database dump
+0008.475 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_submissions.table.gz (34/26/fopen): adding to final database dump
+0008.477 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_submissions_actions_log.table.tmpr0.gz (35/26/fopen): adding to final database dump
+0008.483 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_submissions_actions_log.table.gz (36/26/fopen): adding to final database dump
+0008.487 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_submissions_values.table.tmpr0.gz (37/26/fopen): adding to final database dump
+0008.490 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_e_submissions_values.table.gz (38/26/fopen): adding to final database dump
+0008.497 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_litespeed_url.table.tmpr0.gz (39/26/fopen): adding to final database dump
+0008.504 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_litespeed_url.table.gz (40/26/fopen): adding to final database dump
+0008.507 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_litespeed_url_file.table.tmpr0.gz (41/26/fopen): adding to final database dump
+0008.513 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_litespeed_url_file.table.gz (42/26/fopen): adding to final database dump
+0008.521 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_smush_dir_images.table.tmpr0.gz (43/26/fopen): adding to final database dump
+0008.522 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_smush_dir_images.table.gz (44/26/fopen): adding to final database dump
+0008.530 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_tm_taskmeta.table.tmpr0.gz (45/26/fopen): adding to final database dump
+0008.535 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_tm_taskmeta.table.gz (46/26/fopen): adding to final database dump
+0008.538 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_tm_tasks.table.tmpr0.gz (47/26/fopen): adding to final database dump
+0008.538 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_tm_tasks.table.gz (48/26/fopen): adding to final database dump
+0008.547 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_wpfm_backup.table.tmpr0.gz (49/26/fopen): adding to final database dump
+0008.556 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_wpfm_backup.table.gz (50/26/fopen): adding to final database dump
+0008.565 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_wpo_404_detector.table.tmpr0.gz (51/26/fopen): adding to final database dump
+0008.574 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db-table-wp2w_wpo_404_detector.table.gz (52/26/fopen): adding to final database dump
+0008.581 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db.gz: finished writing out complete database file (19396.1 KB)
+0008.818 (0) Total database tables backed up: 26 (backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db.gz, size: 19861696, sha1: 2b4854d9a4e574b5f55f503d7c88401e295a5a2d, sha256: 42adf002efad51e35d5d7040e46f7557080c69686f26984a9c492fb367803880)
+0008.883 (0) backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.886 (0) Saving backup history. Total backup size: 18.9 MB
+0008.899 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0008.910 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.916 (0) No remote despatch: user chose no remote backup service
+0008.918 (0) Recording as successfully uploaded: backup_2026-04-21-0606_ReSteuer_fb6da3dedaec-db.gz
+0008.927 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0008.930 (0) Resume backup (fb6da3dedaec, 0): finish run
+0008.946 (0) Decremented the semaphore (fd) by 1
+0008.954 (0) Semaphore (fd) unlocked
+0008.955 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.976 (0) No email will/can be sent - the user has not configured an email address.
+0008.982 (0) The backup succeeded and is now complete

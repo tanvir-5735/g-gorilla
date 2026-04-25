@@ -1,0 +1,247 @@
+0000.002 () Opened log file at time: Tue, 14 Apr 2026 06:06:14 +0000 on https://gorilla.devmasud.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.1.34 (litespeed, Linux corporate.vip3.noc401.com 4.18.0-553.58.1.lve.el8.x86_64 #1 SMP Fri Jul 4 12:07:06 UTC 2025 x86_64) MySQL: 11.4.10-MariaDB (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 44.1M | 46.5M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.053 () Free space on disk containing Updraft's temporary directory: 1181354.6 MB
+0000.070 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Tue, 14 Apr 2026 06:06:16 +0000 on https://gorilla.devmasud.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.1.34 (litespeed, Linux corporate.vip3.noc401.com 4.18.0-553.58.1.lve.el8.x86_64 #1 SMP Fri Jul 4 12:07:06 UTC 2025 x86_64) MySQL: 11.4.10-MariaDB (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.2M | 42.5M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.046 () Free space on disk containing Updraft's temporary directory: 1181353.8 MB
+0000.061 () Ensuring WP_Filesystem is setup for a restore
+0000.062 () WP_Filesystem is setup and ready for a restore
+0000.064 () Restore job started. Entities to restore: plugins, themes, uploads, mu-plugins, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["2QY93mfG_options","2QY93mfG_users","2QY93mfG_usermeta","2QY93mfG_commentmeta","2QY93mfG_comments","2QY93mfG_e_notes","2QY93mfG_e_notes_users_relations","2QY93mfG_links","2QY93mfG_postmeta","2QY93mfG_posts","2QY93mfG_term_relationships","2QY93mfG_term_taxonomy","2QY93mfG_termmeta","2QY93mfG_terms","2QY93mfG_burst_archived_months","2QY93mfG_e_events","2QY93mfG_e_submissions","2QY93mfG_e_submissions_actions_log","2QY93mfG_e_submissions_values","2QY93mfG_litespeed_url","2QY93mfG_litespeed_url_file","2QY93mfG_smush_dir_images","2QY93mfG_tm_taskmeta","2QY93mfG_tm_tasks","2QY93mfG_wpfm_backup","2QY93mfG_wpo_404_detector"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.067 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.068 () Entity: db
+0000.068 () restore_backup(backup_file=backup_2026-04-14-0545_ReSteuer_95113249939a-db.gz, type=db, info=a:0:{}, last_one=)
+0000.068 () Unpacking backup... (backup_2026-04-14-0545_ReSteuer_95113249939a-db.gz, 11 Mb)
+0000.167 () Database successfully unpacked
+0000.167 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.167 () Using direct MySQL access; value of use_mysqli is: 1
+0000.167 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.181 () Max packet size: 256 MB
+0000.181 () Entering maintenance mode
+0000.181 () Enabling Maintenance mode&#8230;
+0000.185 () Backup of: https://gorilla-j.previewmysite.online
+0000.195 () Content URL: https://gorilla-j.previewmysite.online/wp-content
+0000.195 () Uploads URL: https://gorilla-j.previewmysite.online/wp-content/uploads
+0000.195 () Old table prefix: 2QY93mfG_
+0000.195 () Old ABSPATH: /home/previewm/public_html/gorilla-j.previewmysite.online/
+0000.195 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.196 () Site information: multisite=0
+0000.196 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.197 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.197 () New table prefix: t1_
+0000.199 () Processing table (InnoDB): 2QY93mfG_options - will restore as: t1_options
+0000.262 () Atomic restore: dropping original table (wp2w_options)
+0000.263 () Atomic restore: renaming new table (t1_options) to final table name (wp2w_options)
+0000.264 () Restoring prior UD configuration (table: wp2w_options; keys: 102)
+0000.343 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.344 () Options table fields changed OK
+0000.347 () Search and replacing table: wp2w_options: rows: 800
+0000.427 () Processing table (InnoDB): 2QY93mfG_users - will restore as: t1_users
+0000.432 () Atomic restore: dropping original table (wp2w_users)
+0000.433 () Atomic restore: renaming new table (t1_users) to final table name (wp2w_users)
+0000.435 () Search and replacing table: wp2w_users: rows: 2
+0000.436 () Processing table (InnoDB): 2QY93mfG_usermeta - will restore as: t1_usermeta
+0000.440 () Atomic restore: dropping original table (wp2w_usermeta)
+0000.441 () Atomic restore: renaming new table (t1_usermeta) to final table name (wp2w_usermeta)
+0000.441 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.442 () Usermeta table fields changed OK
+0000.443 () Search and replacing table: wp2w_usermeta: rows: 51
+0000.444 () Processing table (InnoDB): 2QY93mfG_commentmeta - will restore as: t1_commentmeta
+0000.446 () Atomic restore: dropping original table (wp2w_commentmeta)
+0000.447 () Atomic restore: renaming new table (t1_commentmeta) to final table name (wp2w_commentmeta)
+0000.449 () Search and replacing table: wp2w_commentmeta: rows: 0
+0000.449 () Processing table (InnoDB): 2QY93mfG_comments - will restore as: t1_comments
+0000.452 () Atomic restore: dropping original table (wp2w_comments)
+0000.453 () Atomic restore: renaming new table (t1_comments) to final table name (wp2w_comments)
+0000.455 () Search and replacing table: wp2w_comments: rows: 0
+0000.455 () Processing table (InnoDB): 2QY93mfG_e_notes - will restore as: t1_e_notes
+0000.459 () Atomic restore: dropping original table (wp2w_e_notes)
+0000.460 () Atomic restore: renaming new table (t1_e_notes) to final table name (wp2w_e_notes)
+0000.462 () Search and replacing table: wp2w_e_notes: rows: 0
+0000.462 () Processing table (InnoDB): 2QY93mfG_e_notes_users_relations - will restore as: t1_e_notes_users_relations
+0000.464 () Atomic restore: dropping original table (wp2w_e_notes_users_relations)
+0000.465 () Atomic restore: renaming new table (t1_e_notes_users_relations) to final table name (wp2w_e_notes_users_relations)
+0000.466 () Search and replacing table: wp2w_e_notes_users_relations: rows: 0
+0000.467 () Processing table (InnoDB): 2QY93mfG_links - will restore as: t1_links
+0000.469 () Atomic restore: dropping original table (wp2w_links)
+0000.470 () Atomic restore: renaming new table (t1_links) to final table name (wp2w_links)
+0000.472 () Search and replacing table: wp2w_links: rows: 0
+0000.472 () Processing table (InnoDB): 2QY93mfG_postmeta - will restore as: t1_postmeta
+0000.857 () Database queries processed: 50 in 0.69 seconds
+0001.435 () Atomic restore: dropping original table (wp2w_postmeta)
+0001.437 () Atomic restore: renaming new table (t1_postmeta) to final table name (wp2w_postmeta)
+0001.456 () Search and replacing table: wp2w_postmeta: rows: 231
+0004.438 () Processing table (InnoDB): 2QY93mfG_posts - will restore as: t1_posts
+0004.518 () Atomic restore: dropping original table (wp2w_posts)
+0004.520 () Atomic restore: renaming new table (t1_posts) to final table name (wp2w_posts)
+0004.522 () Skipping search/replace on GUID column in posts table
+0004.522 () Search and replacing table: wp2w_posts: rows: 360
+0004.651 () Processing table (InnoDB): 2QY93mfG_term_relationships - will restore as: t1_term_relationships
+0004.655 () Atomic restore: dropping original table (wp2w_term_relationships)
+0004.655 () Atomic restore: renaming new table (t1_term_relationships) to final table name (wp2w_term_relationships)
+0004.656 () Skipping this table: data in this table (wp2w_term_relationships) should not be search/replaced
+0004.656 () Processing table (InnoDB): 2QY93mfG_term_taxonomy - will restore as: t1_term_taxonomy
+0004.660 () Atomic restore: dropping original table (wp2w_term_taxonomy)
+0004.660 () Atomic restore: renaming new table (t1_term_taxonomy) to final table name (wp2w_term_taxonomy)
+0004.662 () Search and replacing table: wp2w_term_taxonomy: rows: 11
+0004.663 () Processing table (InnoDB): 2QY93mfG_termmeta - will restore as: t1_termmeta
+0004.665 () Atomic restore: dropping original table (wp2w_termmeta)
+0004.666 () Atomic restore: renaming new table (t1_termmeta) to final table name (wp2w_termmeta)
+0004.668 () Search and replacing table: wp2w_termmeta: rows: 0
+0004.668 () Processing table (InnoDB): 2QY93mfG_terms - will restore as: t1_terms
+0004.672 () Atomic restore: dropping original table (wp2w_terms)
+0004.672 () Atomic restore: renaming new table (t1_terms) to final table name (wp2w_terms)
+0004.674 () Search and replacing table: wp2w_terms: rows: 11
+0004.674 () Processing table (InnoDB): 2QY93mfG_burst_archived_months - will restore as: t1_burst_archived_months
+0004.680 () Atomic restore: dropping original table (wp2w_burst_archived_months)
+0004.681 () Atomic restore: renaming new table (t1_burst_archived_months) to final table name (wp2w_burst_archived_months)
+0004.683 () Search and replacing table: wp2w_burst_archived_months: rows: 0
+0004.683 () Processing table (InnoDB): 2QY93mfG_e_events - will restore as: t1_e_events
+0004.686 () Atomic restore: dropping original table (wp2w_e_events)
+0004.687 () Atomic restore: renaming new table (t1_e_events) to final table name (wp2w_e_events)
+0004.689 () Search and replacing table: wp2w_e_events: rows: 0
+0004.689 () Processing table (InnoDB): 2QY93mfG_e_submissions - will restore as: t1_e_submissions
+0004.698 () Atomic restore: dropping original table (wp2w_e_submissions)
+0004.699 () Database queries processed: 100 in 4.53 seconds
+0004.699 () Atomic restore: renaming new table (t1_e_submissions) to final table name (wp2w_e_submissions)
+0004.702 () Search and replacing table: wp2w_e_submissions: rows: 0
+0004.702 () Processing table (InnoDB): 2QY93mfG_e_submissions_actions_log - will restore as: t1_e_submissions_actions_log
+0004.706 () Atomic restore: dropping original table (wp2w_e_submissions_actions_log)
+0004.706 () Atomic restore: renaming new table (t1_e_submissions_actions_log) to final table name (wp2w_e_submissions_actions_log)
+0004.709 () Search and replacing table: wp2w_e_submissions_actions_log: rows: 0
+0004.709 () Processing table (InnoDB): 2QY93mfG_e_submissions_values - will restore as: t1_e_submissions_values
+0004.712 () Atomic restore: dropping original table (wp2w_e_submissions_values)
+0004.713 () Atomic restore: renaming new table (t1_e_submissions_values) to final table name (wp2w_e_submissions_values)
+0004.715 () Search and replacing table: wp2w_e_submissions_values: rows: 0
+0004.715 () Processing table (InnoDB): 2QY93mfG_litespeed_url - will restore as: t1_litespeed_url
+0004.718 () Atomic restore: dropping original table (wp2w_litespeed_url)
+0004.718 () Atomic restore: renaming new table (t1_litespeed_url) to final table name (wp2w_litespeed_url)
+0004.720 () Search and replacing table: wp2w_litespeed_url: rows: 0
+0004.720 () Processing table (InnoDB): 2QY93mfG_litespeed_url_file - will restore as: t1_litespeed_url_file
+0004.723 () Atomic restore: dropping original table (wp2w_litespeed_url_file)
+0004.724 () Atomic restore: renaming new table (t1_litespeed_url_file) to final table name (wp2w_litespeed_url_file)
+0004.726 () Search and replacing table: wp2w_litespeed_url_file: rows: 0
+0004.726 () Processing table (InnoDB): 2QY93mfG_smush_dir_images - will restore as: t1_smush_dir_images
+0004.728 () Atomic restore: dropping original table (wp2w_smush_dir_images)
+0004.729 () Atomic restore: renaming new table (t1_smush_dir_images) to final table name (wp2w_smush_dir_images)
+0004.731 () Search and replacing table: wp2w_smush_dir_images: rows: 0
+0004.731 () Processing table (InnoDB): 2QY93mfG_tm_taskmeta - will restore as: t1_tm_taskmeta
+0004.734 () Atomic restore: dropping original table (wp2w_tm_taskmeta)
+0004.734 () Atomic restore: renaming new table (t1_tm_taskmeta) to final table name (wp2w_tm_taskmeta)
+0004.736 () Search and replacing table: wp2w_tm_taskmeta: rows: 0
+0004.736 () Processing table (InnoDB): 2QY93mfG_tm_tasks - will restore as: t1_tm_tasks
+0004.739 () Atomic restore: dropping original table (wp2w_tm_tasks)
+0004.739 () Atomic restore: renaming new table (t1_tm_tasks) to final table name (wp2w_tm_tasks)
+0004.741 () Search and replacing table: wp2w_tm_tasks: rows: 0
+0004.741 () Processing table (InnoDB): 2QY93mfG_wpfm_backup - will restore as: t1_wpfm_backup
+0004.743 () Atomic restore: dropping original table (wp2w_wpfm_backup)
+0004.743 () Atomic restore: renaming new table (t1_wpfm_backup) to final table name (wp2w_wpfm_backup)
+0004.745 () Search and replacing table: wp2w_wpfm_backup: rows: 0
+0004.745 () Processing table (InnoDB): 2QY93mfG_wpo_404_detector - will restore as: t1_wpo_404_detector
+0004.747 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0004.749 () Unlocking database and leaving maintenance mode
+0004.749 () Disabling Maintenance mode&#8230;
+0004.749 () Atomic restore: dropping original table (wp2w_wpo_404_detector)
+0004.750 () Atomic restore: renaming new table (t1_wpo_404_detector) to final table name (wp2w_wpo_404_detector)
+0004.752 () Search and replacing table: wp2w_wpo_404_detector: rows: 0
+0004.752 () Finished: lines processed: 120 in 4.58 seconds
+0004.755 () Cleaning up rubbish...
+0004.756 () Begin search and replace (updraftplus_restored_db)
+0004.756 () [Database-replace-site-url] Database: search and replace site URL
+0004.756 () Database search and replace: replace https://gorilla-j.previewmysite.online in backup dump with https://gorilla.devmasud.com
+0004.757 () Database search and replace: replace http://www.gorilla-j.previewmysite.online in backup dump with https://gorilla.devmasud.com
+0004.757 () Database search and replace: replace http://gorilla-j.previewmysite.online in backup dump with https://gorilla.devmasud.com
+0004.757 () Database search and replace: replace https://www.gorilla-j.previewmysite.online in backup dump with https://gorilla.devmasud.com
+0004.757 () Database search and replace: replace /home/previewm/public_html/gorilla-j.previewmysite.online in backup dump with /home/devmasud/gorilla.devmasud.com
+0004.757 () Search and replacing table: wp2w_burst_archived_months: already done
+0004.757 () Search and replacing table: wp2w_commentmeta: already done
+0004.758 () Search and replacing table: wp2w_comments: already done
+0004.758 () Search and replacing table: wp2w_e_events: already done
+0004.758 () Search and replacing table: wp2w_e_notes: already done
+0004.758 () Search and replacing table: wp2w_e_notes_users_relations: already done
+0004.758 () Search and replacing table: wp2w_e_submissions: already done
+0004.758 () Search and replacing table: wp2w_e_submissions_actions_log: already done
+0004.758 () Search and replacing table: wp2w_e_submissions_values: already done
+0004.758 () Search and replacing table: wp2w_links: already done
+0004.758 () Search and replacing table: wp2w_litespeed_url: already done
+0004.758 () Search and replacing table: wp2w_litespeed_url_file: already done
+0004.758 () Search and replacing table: wp2w_options: already done
+0004.758 () Search and replacing table: wp2w_postmeta: already done
+0004.759 () Search and replacing table: wp2w_posts: already done
+0004.759 () Search and replacing table: wp2w_smush_dir_images: already done
+0004.759 () Search and replacing table: wp2w_term_relationships: already done
+0004.759 () Search and replacing table: wp2w_term_taxonomy: already done
+0004.759 () Search and replacing table: wp2w_termmeta: already done
+0004.759 () Search and replacing table: wp2w_terms: already done
+0004.759 () Search and replacing table: wp2w_tm_taskmeta: already done
+0004.759 () Search and replacing table: wp2w_tm_tasks: already done
+0004.759 () Search and replacing table: wp2w_usermeta: already done
+0004.759 () Search and replacing table: wp2w_users: already done
+0004.759 () Search and replacing table: wp2w_wpfm_backup: already done
+0004.760 () Search and replacing table: wp2w_wpo_404_detector: already done
+0004.765 () Entity: mu-plugins
+0004.766 () restore_backup(backup_file=backup_2026-04-14-0545_ReSteuer_95113249939a-mu-plugins.zip, type=mu-plugins, info=a:2:{s:4:"path";s:57:"/home/devmasud/gorilla.devmasud.com/wp-content/mu-plugins";s:11:"description";s:16:"Must-use plugins";}, last_one=)
+0004.766 () Unpacking backup... (backup_2026-04-14-0545_ReSteuer_95113249939a-mu-plugins.zip, 0 MB)
+0004.768 () Unzipping backup_2026-04-14-0545_ReSteuer_95113249939a-mu-plugins.zip to /home/devmasud/gorilla.devmasud.com/wp-content/upgrade/87c00742/ using UpdraftPlus_ZipArchive, starting index 0
+0004.770 () Unzip progress: 3 out of 3 files (81.3 KB, mu-plugins/dev-portal-fix.php)
+0004.770 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.770 () Moving old data: can potentially use wp_filesystem method / -old
+0004.770 () Moving old data out of the way...
+0004.770 () Moving unpacked backup into place...
+0004.771 () Destination directory did not exist, but was successfully created (/home/devmasud/gorilla.devmasud.com/wp-content/mu-plugins/)
+0004.771 () Cleaning up rubbish...
+0004.772 () Entity: plugins
+0004.772 () restore_backup(backup_file=backup_2026-04-14-0545_ReSteuer_95113249939a-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/home/devmasud/gorilla.devmasud.com/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0004.772 () Unpacking backup... (backup_2026-04-14-0545_ReSteuer_95113249939a-plugins.zip, 51.7 MB)
+0004.773 () Unzipping backup_2026-04-14-0545_ReSteuer_95113249939a-plugins.zip to /home/devmasud/gorilla.devmasud.com/wp-content/upgrade/6e3d5dea/ using UpdraftPlus_ZipArchive, starting index 0
+0004.978 () Unzip progress: 1963 out of 11721 files (28 B, plugins/index.php)
+0005.121 () Unzip progress: 2964 out of 11721 files (4.3 MB, plugins/wp-optimize/includes/class-wp-optimize-bypass.php)
+0006.097 () Unzip progress: 3965 out of 11721 files (13.5 MB, plugins/updraftplus/images/onboarding/azure.png)
+0008.548 () Unzip progress: 4966 out of 11721 files (35.5 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Identity/Service.php)
+0010.634 () Unzip progress: 5967 out of 11721 files (54.3 MB, plugins/wp-file-manager/lib/themes/light/images/48px/html_file.svg)
+0015.738 () Unzip progress: 6968 out of 11721 files (102.7 MB, plugins/elementor/assets/js/new-template.js)
+0017.422 () Unzip progress: 7969 out of 11721 files (117.1 MB, plugins/elementor/modules/atomic-widgets/props-resolver/transformers/styles/filter-transformer.php)
+0018.491 () Unzip progress: 8970 out of 11721 files (125.2 MB, plugins/elementor-pro/assets/css/widget-price-list.min.css)
+0020.089 () Unzip progress: 9971 out of 11721 files (138 MB, plugins/elementor-pro/modules/theme-builder/classes/theme-support.php)
+0021.967 () Unzip progress: 10972 out of 11721 files (154.5 MB, plugins/optimole-wp/vendor/codeinwp/themeisle-sdk/src/Modules/Script_loader.php)
+0023.528 () Unzip progress: 11721 out of 11721 files (168.5 MB, plugins/wp-smushit/wp-smush.php)
+0023.530 () Moving old data: filesystem method / updraft_dir is potentially possible
+0023.531 () Moving old data: can potentially use wp_filesystem method / -old
+0023.531 () Moving old data out of the way...
+0023.624 () Top-level entities being moved: index.php, hello.php, akismet, updraftplus, backup
+0023.626 () Moving unpacked backup into place...
+0023.898 () Top-level entities being moved: svg-support, crocoblock-wizard, elementor, litespeed-cache, advanced-database-cleaner, elementor-pro, index.php, gtranslate, wp-optimize, km-tax-calculator, wp-file-manager, all-in-one-wp-migration, updraftplus, optimole-wp, wp-smushit
+0023.904 () Cleaning up rubbish...
+0023.906 () Entity: themes
+0023.906 () restore_backup(backup_file=backup_2026-04-14-0545_ReSteuer_95113249939a-themes.zip, type=themes, info=a:3:{s:4:"path";s:53:"/home/devmasud/gorilla.devmasud.com/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0023.907 () Unpacking backup... (backup_2026-04-14-0545_ReSteuer_95113249939a-themes.zip, 8.7 MB)
+0023.907 () Unzipping backup_2026-04-14-0545_ReSteuer_95113249939a-themes.zip to /home/devmasud/gorilla.devmasud.com/wp-content/upgrade/5689e548/ using UpdraftPlus_ZipArchive, starting index 0
+0026.133 () Unzip progress: 1002 out of 1074 files (23.1 MB, themes/astra/inc/class-astra-dynamic-css.php)
+0026.332 () Unzip progress: 1074 out of 1074 files (24.9 MB, themes/astra-child/functions.php)
+0026.332 () Moving old data: filesystem method / updraft_dir is potentially possible
+0026.332 () Moving old data: can potentially use wp_filesystem method / -old
+0026.332 () Moving old data out of the way...
+0026.369 () Top-level entities being moved: index.php, twentytwentyfive, twentytwentythree, twentytwentyfour
+0026.369 () Moving unpacked backup into place...
+0026.393 () Top-level entities being moved: index.php, astra-child, astra
+0026.394 () Cleaning up rubbish...
+0026.395 () Entity: uploads
+0026.395 () restore_backup(backup_file=backup_2026-04-14-0545_ReSteuer_95113249939a-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home/devmasud/gorilla.devmasud.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0026.395 () Unpacking backup... (backup_2026-04-14-0545_ReSteuer_95113249939a-uploads.zip, 125.5 MB)
+0026.396 () Unzipping backup_2026-04-14-0545_ReSteuer_95113249939a-uploads.zip to /home/devmasud/gorilla.devmasud.com/wp-content/upgrade/a2bf83ee/ using UpdraftPlus_ZipArchive, starting index 0
+0036.498 () Unzip progress: 519 out of 648 files (100.1 MB, uploads/2026/04/black-female-real-estate-agent-showing-couple-where-sign-contract-meeting-office-1536x1024.jpg)
+0039.504 () Unzip progress: 648 out of 648 files (129.9 MB, uploads/smush/index.php)
+0039.505 () Moving old data: filesystem method / updraft_dir is potentially possible
+0039.505 () Moving old data: can potentially use wp_filesystem method / -old
+0039.505 () Moving old data out of the way...
+0039.509 () Moving unpacked backup into place...
+0039.520 () Cleaning up rubbish...
+0039.522 () Entity: others
+0039.522 () restore_backup(backup_file=backup_2026-04-14-0545_ReSteuer_95113249939a-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/home/devmasud/gorilla.devmasud.com/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0039.522 () Unpacking backup... (backup_2026-04-14-0545_ReSteuer_95113249939a-others.zip, 0 MB)
+0039.522 () Unzipping backup_2026-04-14-0545_ReSteuer_95113249939a-others.zip to /home/devmasud/gorilla.devmasud.com/wp-content/upgrade/8ef504ae/ using UpdraftPlus_ZipArchive, starting index 0
+0039.525 () Unzip progress: 15 out of 15 files (1.3 KB, wpo-cache/config/config-gorilla-j.previewmysite.online.php)
+0039.526 () Cleaning up rubbish...
+0039.532 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0039.539 () Restore successful!
+0039.539 () Restore successful
